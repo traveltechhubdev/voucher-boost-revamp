@@ -1,3 +1,4 @@
+
 import type { Config } from "tailwindcss";
 
 export default {
@@ -61,7 +62,33 @@ export default {
 					'accent-foreground': 'hsl(var(--sidebar-accent-foreground))',
 					border: 'hsl(var(--sidebar-border))',
 					ring: 'hsl(var(--sidebar-ring))'
-				}
+				},
+        rentalBlue: {
+          50: '#f0f7ff',
+          100: '#e0eefe',
+          200: '#b9ddfe',
+          300: '#7cc2fd',
+          400: '#36a5fa',
+          500: '#0c8df8',
+          600: '#006fe9',
+          700: '#0058d0',
+          800: '#0049aa',
+          900: '#004098',
+          950: '#002b6b',
+        },
+        rentalGray: {
+          50: '#f9fafb',
+          100: '#f3f4f6',
+          200: '#e5e7eb',
+          300: '#d1d5db',
+          400: '#9ca3af',
+          500: '#6b7280',
+          600: '#4b5563',
+          700: '#374151',
+          800: '#1f2937',
+          900: '#111827',
+          950: '#030712',
+        },
 			},
 			borderRadius: {
 				lg: 'var(--radius)',
