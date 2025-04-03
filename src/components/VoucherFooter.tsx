@@ -12,21 +12,21 @@ const VoucherFooter: React.FC<VoucherFooterProps> = ({ className }) => {
     <div className={cn("p-6 bg-rentalBlue-900 text-white rounded-b-lg", className)}>
       <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
         <div>
-          <h4 className="text-sm font-semibold mb-2 text-rentalBlue-100">Need Assistance?</h4>
+          <h4 className="text-sm font-semibold mb-2 text-rentalBlue-100">Precisa de Ajuda?</h4>
           <div className="text-sm space-y-1">
-            <div>Customer Service: +1 (800) 555-1234</div>
-            <div>Emergency Support: +1 (800) 555-5678</div>
-            <div>Email: support@driveease.com</div>
+            <div>Atendimento ao Cliente: +1 (800) 555-1234</div>
+            <div>Suporte de Emergência: +1 (800) 555-5678</div>
+            <div>Email: suporte@driveease.com</div>
           </div>
         </div>
         
         <div>
-          <h4 className="text-sm font-semibold mb-2 text-rentalBlue-100">Rental Policies</h4>
+          <h4 className="text-sm font-semibold mb-2 text-rentalBlue-100">Políticas de Aluguel</h4>
           <div className="text-sm space-y-1">
-            <div>• Valid driver's license required</div>
-            <div>• Minimum age: 25 years</div>
-            <div>• Credit card required at pickup</div>
-            <div>• See full terms on our website</div>
+            <div>• Carteira de motorista válida obrigatória</div>
+            <div>• Idade mínima: 25 anos</div>
+            <div>• Cartão de crédito necessário na retirada</div>
+            <div>• Veja os termos completos em nosso site</div>
           </div>
         </div>
         
@@ -37,7 +37,7 @@ const VoucherFooter: React.FC<VoucherFooterProps> = ({ className }) => {
               alt="QR Code" 
               className="w-24 h-24"
             />
-            <div className="text-rentalBlue-900 text-xs mt-2 font-medium text-center">Scan for Check-in</div>
+            <div className="text-rentalBlue-900 text-xs mt-2 font-medium text-center">Escaneie para Check-in</div>
           </div>
         </div>
       </div>
@@ -46,10 +46,10 @@ const VoucherFooter: React.FC<VoucherFooterProps> = ({ className }) => {
       
       <div className="text-xs text-rentalBlue-200 flex flex-col md:flex-row justify-between">
         <div>
-          Terms & Conditions apply. Please review our full rental agreement at www.driveease.com/terms
+          Termos e Condições se aplicam. Por favor, leia nosso contrato de aluguel completo em www.driveease.com/termos
         </div>
         <div className="mt-2 md:mt-0">
-          Confirmation ID: VCH-1283490 • Generated on: April 3, 2025
+          ID de Confirmação: VCH-1283490 • Gerado em: 3 de Abril de 2025
         </div>
       </div>
     </div>

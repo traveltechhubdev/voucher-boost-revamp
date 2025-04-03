@@ -19,7 +19,7 @@ const AddOn: React.FC<AddOnProps> = ({ title, description, price, recommended })
           <h4 className="font-medium">{title}</h4>
           {recommended && (
             <Badge className="ml-2 bg-rentalBlue-100 text-rentalBlue-800 hover:bg-rentalBlue-200">
-              Recommended
+              Recomendado
             </Badge>
           )}
         </div>
@@ -28,7 +28,7 @@ const AddOn: React.FC<AddOnProps> = ({ title, description, price, recommended })
       <div className="text-right self-end sm:self-center">
         <div className="text-rentalBlue-800 font-bold">{price}</div>
         <button className="mt-1 text-xs px-3 py-1 bg-rentalBlue-600 text-white rounded hover:bg-rentalBlue-700 transition-colors">
-          Add
+          Adicionar
         </button>
       </div>
     </div>
@@ -43,70 +43,70 @@ const AddOns: React.FC<AddOnsProps> = ({ className }) => {
   return (
     <div className={cn("p-6 bg-rentalGray-50", className)}>
       <div className="flex justify-between items-center mb-4">
-        <h3 className="text-lg font-semibold text-rentalBlue-900">Enhance Your Rental</h3>
-        <div className="text-sm text-rentalBlue-600">Add extras directly to your booking</div>
+        <h3 className="text-lg font-semibold text-rentalBlue-900">Melhore seu Aluguel</h3>
+        <div className="text-sm text-rentalBlue-600">Adicione extras diretamente à sua reserva</div>
       </div>
       
       <div className="space-y-3">
         <AddOn 
-          title="Premium Insurance Coverage" 
-          description="Full protection with zero deductible for peace of mind" 
-          price="$15/day"
+          title="Cobertura de Seguro Premium" 
+          description="Proteção completa com franquia zero para sua tranquilidade" 
+          price="R$15/dia"
           recommended
         />
         
         <AddOn 
-          title="GPS Navigation System" 
-          description="Never get lost with our premium GPS system" 
-          price="$8/day"
+          title="Sistema de Navegação GPS" 
+          description="Nunca se perca com nosso sistema GPS premium" 
+          price="R$8/dia"
         />
         
         <AddOn 
-          title="Additional Driver" 
-          description="Share the driving with friends or family" 
-          price="$10/day"
+          title="Motorista Adicional" 
+          description="Compartilhe a direção com amigos ou família" 
+          price="R$10/dia"
         />
         
         <AddOn 
-          title="Child Seat" 
-          description="Safety-certified child seat for children under 4 years" 
-          price="$7/day"
+          title="Cadeira Infantil" 
+          description="Cadeira infantil certificada para crianças menores de 4 anos" 
+          price="R$7/dia"
         />
         
         <AddOn 
-          title="Upgrade to SUV" 
-          description="More space with a Toyota RAV4 or similar" 
-          price="$25/day"
+          title="Upgrade para SUV" 
+          description="Mais espaço com um Toyota RAV4 ou similar" 
+          price="R$25/dia"
         />
       </div>
       
       <Separator className="my-6" />
       
       <div className="bg-white p-4 rounded-lg border border-rentalGray-200">
-        <h4 className="font-medium text-rentalBlue-900 mb-3">Payment Summary</h4>
+        <h4 className="font-medium text-rentalBlue-900 mb-3">Resumo de Pagamento</h4>
         
         <div className="space-y-2 mb-4">
           <div className="flex justify-between">
-            <span className="text-sm">Base Rental (4 days)</span>
-            <span className="text-sm font-medium">$240.00</span>
+            <span className="text-sm">Aluguel Base (4 dias)</span>
+            <span className="text-sm font-medium">R$240,00</span>
           </div>
           <div className="flex justify-between">
-            <span className="text-sm">Taxes & Fees</span>
-            <span className="text-sm font-medium">$36.00</span>
+            <span className="text-sm">Impostos e Taxas</span>
+            <span className="text-sm font-medium">R$36,00</span>
           </div>
           <div className="flex justify-between">
-            <span className="text-sm">Airport Surcharge</span>
-            <span className="text-sm font-medium">$12.00</span>
+            <span className="text-sm">Taxa de Aeroporto</span>
+            <span className="text-sm font-medium">R$12,00</span>
           </div>
           <Separator className="my-2" />
           <div className="flex justify-between font-bold">
             <span>Total</span>
-            <span>$288.00</span>
+            <span>R$288,00</span>
           </div>
         </div>
         
         <div className="text-xs text-rentalGray-500">
-          * Additional charges may apply for optional services, late returns, or fuel.
+          * Taxas adicionais podem ser aplicadas para serviços opcionais, devoluções tardias ou combustível.
         </div>
       </div>
     </div>

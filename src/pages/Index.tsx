@@ -9,20 +9,20 @@ const Index = () => {
       <div className="max-w-5xl mx-auto mb-8">
         <div className="flex flex-col md:flex-row justify-between items-center mb-6">
           <h1 className="text-2xl md:text-3xl font-bold text-rentalBlue-900">
-            Your Rental Confirmation
+            Sua Confirmação de Aluguel
           </h1>
           <div className="flex gap-3 mt-4 md:mt-0">
             <Button variant="outline" className="border-rentalBlue-600 text-rentalBlue-600 hover:bg-rentalBlue-50">
-              Save as PDF
+              Salvar como PDF
             </Button>
             <Button className="bg-rentalBlue-600 hover:bg-rentalBlue-700">
-              Print Voucher
+              Imprimir Comprovante
             </Button>
           </div>
         </div>
         
         <p className="text-rentalGray-600 mb-8">
-          Thank you for choosing DriveEase. Below is your rental confirmation voucher with all the details of your booking.
+          Obrigado por escolher a DriveEase. Abaixo está o comprovante de confirmação do seu aluguel com todos os detalhes da sua reserva.
         </p>
       </div>
       
@@ -30,7 +30,7 @@ const Index = () => {
 
       <div className="max-w-5xl mx-auto mt-8 text-center">
         <p className="text-rentalGray-500 text-sm">
-          For any changes to your reservation, please contact our customer service at least 24 hours prior to your pickup time.
+          Para quaisquer alterações em sua reserva, entre em contato com nosso atendimento ao cliente pelo menos 24 horas antes do horário de retirada.
         </p>
       </div>
     </div>

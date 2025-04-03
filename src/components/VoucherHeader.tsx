@@ -14,7 +14,7 @@ const VoucherHeader: React.FC<VoucherHeaderProps> = ({ className }) => {
         <div className="bg-white text-rentalBlue-700 text-xs px-2 py-1 rounded font-bold">PREMIUM</div>
       </div>
       <div className="text-right">
-        <h2 className="text-sm font-medium opacity-80">CONFIRMATION VOUCHER</h2>
+        <h2 className="text-sm font-medium opacity-80">COMPROVANTE DE RESERVA</h2>
         <div className="text-xl font-bold">#VCH-1283490</div>
       </div>
     </div>
