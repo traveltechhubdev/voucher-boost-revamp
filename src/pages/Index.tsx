@@ -8,14 +8,14 @@ const Index = () => {
     <div className="min-h-screen bg-rentalGray-100 py-10 px-4">
       <div className="max-w-5xl mx-auto mb-8">
         <div className="flex flex-col md:flex-row justify-between items-center mb-6">
-          <h1 className="text-2xl md:text-3xl font-bold text-rentalBlue-900">
+          <h1 className="text-2xl md:text-3xl font-bold text-rentalOrange-900">
             Sua Confirmação de Aluguel
           </h1>
           <div className="flex gap-3 mt-4 md:mt-0">
-            <Button variant="outline" className="border-rentalBlue-600 text-rentalBlue-600 hover:bg-rentalBlue-50">
+            <Button variant="outline" className="border-rentalOrange-600 text-rentalOrange-600 hover:bg-rentalOrange-50">
               Salvar como PDF
             </Button>
-            <Button className="bg-rentalBlue-600 hover:bg-rentalBlue-700">
+            <Button className="bg-rentalOrange-600 hover:bg-rentalOrange-700">
               Imprimir Comprovante
             </Button>
           </div>

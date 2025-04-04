@@ -8,10 +8,10 @@ interface VoucherHeaderProps {
 
 const VoucherHeader: React.FC<VoucherHeaderProps> = ({ className }) => {
   return (
-    <div className={cn("flex flex-col md:flex-row justify-between items-center bg-gradient-to-r from-rentalBlue-700 to-rentalBlue-900 text-white p-6 rounded-t-lg", className)}>
+    <div className={cn("flex flex-col md:flex-row justify-between items-center bg-gradient-to-r from-rentalOrange-600 to-rentalOrange-500 text-white p-6 rounded-t-lg", className)}>
       <div className="flex items-center mb-4 md:mb-0">
         <div className="mr-3 text-3xl font-bold">DriveEase</div>
-        <div className="bg-white text-rentalBlue-700 text-xs px-2 py-1 rounded font-bold">PREMIUM</div>
+        <div className="bg-white text-rentalOrange-600 text-xs px-2 py-1 rounded font-bold">PREMIUM</div>
       </div>
       <div className="text-right">
         <h2 className="text-sm font-medium opacity-80">COMPROVANTE DE RESERVA</h2>

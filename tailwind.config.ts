@@ -1,4 +1,3 @@
-
 import type { Config } from "tailwindcss";
 
 export default {
@@ -89,6 +88,19 @@ export default {
           900: '#111827',
           950: '#030712',
         },
+        rentalOrange: {
+          50: '#fff8f0',
+          100: '#feedd9',
+          200: '#fbd7b0',
+          300: '#f9bc7d',
+          400: '#f79e45',
+          500: '#f68721',
+          600: '#e76b0e',
+          700: '#be510d',
+          800: '#984012',
+          900: '#7b3713',
+          950: '#421b08',
+        }
 			},
 			borderRadius: {
 				lg: 'var(--radius)',
