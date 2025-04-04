@@ -12,17 +12,17 @@ const Index = () => {
             Sua Confirmação de Aluguel
           </h1>
           <div className="flex gap-3 mt-4 md:mt-0">
-            <Button variant="outline" className="border-rentalOrange-600 text-rentalOrange-600 hover:bg-rentalOrange-50">
+            <Button variant="outline" className="border-[#F68721] text-[#F68721] hover:bg-[#F6872126]">
               Salvar como PDF
             </Button>
-            <Button className="bg-rentalOrange-600 hover:bg-rentalOrange-700 text-white">
+            <Button className="bg-[#F68721] hover:bg-[#e07617] text-white">
               Imprimir Comprovante
             </Button>
           </div>
         </div>
         
         <p className="text-black mb-8">
-          Obrigado por escolher a DriveEase. Abaixo está o comprovante de confirmação do seu aluguel com todos os detalhes da sua reserva.
+          Obrigado por escolher a Mobility. Abaixo está o comprovante de confirmação do seu aluguel com todos os detalhes da sua reserva.
         </p>
       </div>
       
