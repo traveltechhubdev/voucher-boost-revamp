@@ -6,8 +6,8 @@ import { Link } from 'react-router-dom';
 
 const Index = () => {
   return (
-    <div className="min-h-screen bg-rentalGray-100 py-10 px-4">
-      <div className="max-w-5xl mx-auto mb-8">
+    <div className="min-h-screen bg-rentalGray-100 py-5 px-4 print:p-0 print:bg-white">
+      <div className="max-w-4xl mx-auto mb-6">
         <div className="flex flex-col md:flex-row justify-between items-center mb-6">
           <h1 className="text-2xl md:text-3xl font-bold text-black">
             Sua Reserva de Carro
@@ -29,7 +29,7 @@ const Index = () => {
       
       <Voucher />
 
-      <div className="max-w-5xl mx-auto mt-8 text-center">
+      <div className="max-w-4xl mx-auto mt-6 text-center print:hidden">
         <p className="text-black text-sm">
           Para quaisquer alterações em sua reserva, entre em contato com nosso atendimento ao cliente pelo menos 24 horas antes do horário de retirada.
         </p>
