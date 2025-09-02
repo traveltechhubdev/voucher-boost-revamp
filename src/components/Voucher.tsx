@@ -4,7 +4,8 @@ import VoucherHeader from './VoucherHeader';
 import VoucherDetails from './VoucherDetails';
 import VehicleInfo from './VehicleInfo';
 import CustomerInfo from './CustomerInfo';
-import AddOns from './AddOns';
+import ImportantInfo from './ImportantInfo';
+import PaymentSummary from './PaymentSummary';
 import VoucherFooter from './VoucherFooter';
 import { cn } from '@/lib/utils';
 
@@ -19,7 +20,8 @@ const Voucher: React.FC<VoucherProps> = ({ className }) => {
       <VoucherDetails />
       <VehicleInfo />
       <CustomerInfo />
-      <AddOns />
+      <ImportantInfo />
+      <PaymentSummary />
       <VoucherFooter />
     </div>
   );

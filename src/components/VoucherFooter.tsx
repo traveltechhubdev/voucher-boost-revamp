@@ -31,13 +31,9 @@ const VoucherFooter: React.FC<VoucherFooterProps> = ({ className }) => {
         </div>
         
         <div className="text-right">
-          <div className="bg-white p-4 inline-block rounded-md">
-            <img 
-              src="https://api.qrserver.com/v1/create-qr-code/?size=100x100&data=VCH-1283490" 
-              alt="QR Code" 
-              className="w-24 h-24"
-            />
-            <div className="text-black text-xs mt-2 font-medium text-center">Escaneie para Check-in</div>
+          <div className="text-sm text-white">
+            <div>Site: mobility.com.br</div>
+            <div>Atendimento Online 24h</div>
           </div>
         </div>
       </div>

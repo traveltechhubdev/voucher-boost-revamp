@@ -10,7 +10,7 @@ const Index = () => {
       <div className="max-w-5xl mx-auto mb-8">
         <div className="flex flex-col md:flex-row justify-between items-center mb-6">
           <h1 className="text-2xl md:text-3xl font-bold text-black">
-            Sua Confirmação de Aluguel
+            Sua Reserva de Carro
           </h1>
           <div className="flex gap-3 mt-4 md:mt-0">
             <Button variant="outline" className="border-[#F68721] text-[#F68721] hover:bg-[#F6872126]">
@@ -25,12 +25,6 @@ const Index = () => {
         <p className="text-black mb-4">
           Obrigado por escolher a Mobility. Abaixo está o comprovante de confirmação do seu aluguel com todos os detalhes da sua reserva.
         </p>
-        
-        <div className="mb-4">
-          <Link to="/cancellation" className="text-[#F68721] hover:underline">
-            Ver comprovante de cancelamento →
-          </Link>
-        </div>
       </div>
       
       <Voucher />

@@ -9,7 +9,7 @@ interface CustomerInfoProps {
 const CustomerInfo: React.FC<CustomerInfoProps> = ({ className }) => {
   return (
     <div className={cn("p-6 bg-white", className)}>
-      <h3 className="text-lg font-semibold text-black mb-4">Informações do Cliente</h3>
+      <h3 className="text-lg font-semibold text-black mb-4">Informações do Condutor</h3>
       
       <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
         <div className="space-y-3">
