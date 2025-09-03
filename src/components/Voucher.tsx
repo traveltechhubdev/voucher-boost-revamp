@@ -15,7 +15,7 @@ interface VoucherProps {
 
 const Voucher: React.FC<VoucherProps> = ({ className }) => {
   return (
-    <div className={cn("max-w-4xl mx-auto shadow-lg border border-rentalGray-200 rounded-lg bg-white", "w-[210mm] min-h-[297mm]", className)}>
+    <div className={cn("max-w-5xl mx-auto shadow-lg border border-rentalGray-200 rounded-lg", className)}>
       <VoucherHeader />
       <VoucherDetails />
       <VehicleInfo />
